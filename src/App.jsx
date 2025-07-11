@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import Navbar from './Components/Navbar';
 
 function App() {
@@ -12,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
