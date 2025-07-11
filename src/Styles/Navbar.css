@@ -4,16 +4,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logo-hei {
+/*.logo-hei {
     width: 6vw;
     height: 7vh;
-}
+}*/
 
-nav {
+/*nav {
     background-color: #001948;
-    height: 10vh;
     font-size: 1.1rem;
-}
+}*/
 
 .navbar-big-container {
     display: flex;
