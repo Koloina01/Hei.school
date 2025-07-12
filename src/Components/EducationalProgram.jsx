@@ -1,5 +1,8 @@
 import React from "react";
 import  ProPedagogique from "../assets/ProPedagogique.webp"
+import DrToky from "../assets/DrToky.webp"
+import Andy from "../assets/Andy.webp"
+import Vagno from "../assets/Vagno.webp"
 
 export default function EducationalPro(){
     return (
@@ -32,14 +35,17 @@ export default function EducationalPro(){
                 </div>
                 <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-2">
                     <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
-                    <p className="text-[#001948] text-3xl font-semibold">Travaux individuels
-de l’étudiant</p>
+                    <p className="text-[#001948] text-3xl font-semibold">Travaux individuels de l’étudiant</p>
                 </div>
                 <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-2">
                     <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
-                    <p className="text-[#001948] text-3xl font-semibold">Apprentissage
-en entreprise</p>
+                    <p className="text-[#001948] text-3xl font-semibold">Apprentissage en entreprise</p>
                 </div>
+            </div>
+            <div className="flex flex-row justify-center gap-9 mt-6">
+                <img src={DrToky} alt="DrToky" className="w-95"/>
+                <img src={Andy} alt="Andy" className="w-95" />
+                <img src={Vagno} alt="Vagno" className="w-95" />
             </div>
         </main>
     )
