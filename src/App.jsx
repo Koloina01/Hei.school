@@ -6,6 +6,7 @@ import Outlets from './Components/Outlets';
 import EducationalProgram from './Components/EducationalProgram';
 import Domains from './Components/Domains';
 import TechStackOverview from './Components/TechStackOverview';
+import Partnership from './Components/Partnership';
 import TripleCarousel from './Components/Carousel';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Admission />
       <EducationalProgram />
       <TechStackOverview />
+      <Partnership />
     </>
   )
 }

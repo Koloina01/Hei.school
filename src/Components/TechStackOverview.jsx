@@ -13,7 +13,7 @@ import Openapi from "../assets/openapi.png"
 
 export default function TechStac() {
     return (
-        <main className="flex flex-col bg-gray-200 mt-20 gap-16">
+        <main className="flex flex-col bg-gray-200 mt-20 gap-16 pb-25">
             <div className="flex flex-col gap-6 items-center mt-20">
                 <h1 className="font-bold text-[#001948] text-5xl font-serif">Les technos et langages utilisées</h1>
                 <div className="text-[#001948] text-xl flex flex-col items-center">
