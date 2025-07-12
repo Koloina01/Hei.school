@@ -21,6 +21,26 @@ export default function EducationalPro(){
                     </div>
                 </div>
             </div>
+            <div className="flex flex-row justify-center gap-7 mt-25">
+                <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-5">
+                    <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
+                    <p className="text-[#001948] text-3xl font-semibold">Apprentissage théorique en présentiel</p>
+                </div>
+                <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-2">
+                    <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
+                    <p className="text-[#001948] text-3xl font-semibold">Apprentissage sur supports numériques</p>
+                </div>
+                <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-2">
+                    <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
+                    <p className="text-[#001948] text-3xl font-semibold">Travaux individuels
+de l’étudiant</p>
+                </div>
+                <div className="relative bg-[#fff5da] p-6 flex flex-col rounded-4xl w-70 h-68 text-start items-start gap-2">
+                    <h2 className="text-6xl font-bold text-[#DFA408] mt-4">25%</h2>
+                    <p className="text-[#001948] text-3xl font-semibold">Apprentissage
+en entreprise</p>
+                </div>
+            </div>
         </main>
     )
 }
