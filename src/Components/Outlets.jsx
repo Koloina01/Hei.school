@@ -31,7 +31,7 @@ export default function Outlets() {
           </div>
         </div>
 
-        <div className="w-full lg:w-[45%] h-full bg-gray-50 flex items-center justify-center p-7 md:p-12 lg:p-16">
+        <div className="w-full lg:w-[45%] h-full bg-white flex items-center justify-center p-7 md:p-12 lg:p-16">
          <div className="flex flex-col items-center justify-center w-full h-full">
            <img 
              src={womanImage} 
