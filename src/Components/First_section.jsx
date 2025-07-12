@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../assets/StudentHei.webp";
-import "../Styles/Navbar.css"
 
 export default function First_section() {
     return (
-        <div className="border flex w-[1856px] h-[1080px] border-black">
+        <div className=" flex w-full h-full">
             <div className="w-[960px] h-[1080px] bg-white flex items-center justify-center">
                 <img 
                     src={logo} 

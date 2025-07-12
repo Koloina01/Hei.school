@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './Components/Navbar';
-import Etudes from './Components/Etudes';
 import Admission from './Components/Admission';
+import First_section from './Components/First_section'
 
 function App() {
   const [count, setCount] = useState(0)
