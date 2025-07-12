@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../assets/Logo-HEI.png"; 
 import womanImage from "..//assets/Woman.webp"
-import "../Styles/Navbar.css";
 
 export default function Outlets() {
   return (
