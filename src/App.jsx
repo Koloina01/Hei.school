@@ -5,6 +5,7 @@ import First_section from './Components/First_section'
 import Outlets from './Components/Outlets';
 import EducationalProgram from './Components/EducationalProgram';
 import Domains from './Components/Domains';
+import TechStackOverview from './Components/TechStackOverview';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Domains/>
       <Admission />
       <EducationalProgram />
+      <TechStackOverview />
     </>
   )
 }
