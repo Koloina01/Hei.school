@@ -7,7 +7,7 @@ import EducationalProgram from './Components/EducationalProgram';
 import Domains from './Components/Domains';
 import TechStackOverview from './Components/TechStackOverview';
 import Partnership from './Components/Partnership';
-import TripleCarousel from './Components/Carousel';
+import Carousel from './Components/Carousel';
 import Footer from './Components/Footer';
 import ScrollingCards from './Components/SecondCarousel';
 
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <TripleCarousel/>
+      <Carousel/>
       <First_section />
       <ScrollingCards/>
       <Outlets/>
