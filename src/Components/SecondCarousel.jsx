@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import DrLouImage from '..//assets/Dr Lou.png';
+import MiradoImage from '..//assets/Mirado.png';
+import JulienImage from '..//assets/Julien.png';
+import RayanImage from '..//assets/mr Rayan.png';
+import JeanAimeImage from '..//assets/Jean Aime.png';
+import ParsionImage from '..//assets/Parison.png';
+import Yannick from '..//assets/Yannick.png';
+import DreTahiana from '..//assets/Dr Tahian.png';
 
 const ScrollingCards = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,49 +15,49 @@ const ScrollingCards = () => {
   const cards = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: MiradoImage,
       title: "Mirado RAFENOMAHENINTSOA",
       text: "Date and Business Inteligence Specialist 5+"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=250&fit=crop",
+      image: JulienImage,
       title: "Julien RAJERISON",
       text: "Lead  DEveloppeur | Fondateur de l'association  Techzara"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=250&fit=crop",
+      image: RayanImage,
       title: "Rayan ANDRIANAMAHERY",
       text: "Developpeur back en | Cofondateur des operations de HEI"
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: JeanAimeImage,
       title: "Jean Aime Maxa",
       text: "Responsable technique cybersecurite chez CES France Continental(Toulouse-France)"
     },
     {
       id: 5,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: ParsionImage,
       title: "Parison Ravalomanda",
       text: "Ingenieur en informatique | Ingenieur logiciel chez Google (Londres-UK)"
     },
     {
       id: 6,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: Yannick,
       title: "Yannick Raharijaona",
       text: "Responsable technique ML chez Science (Ottawa-Canada)"
     },
     {
       id: 7,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: DreTahiana,
       title: "Dre Tahina Ralitera",
       text: "Docteure-Ingenieure, CNRS France | Prix l'Oreal-UNSECO pour les Femmes en Science(2017)"
     },
     {
       id: 8,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
+      image: "https://via.placeholder.com/400x300/f0f0f0/666666?text=Dr+Lou",
       title: "Dr Lou Maurica",
       text: "Docteur-Ingenieur en informatique | Fondateur et directeur pedagogique de HEI"
     }
@@ -101,20 +109,20 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
                 key={card.id}
                 className="w-1/3 flex-shrink-0 px-6 h-full"
               >
-                <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 transform hover:scale-105 h-full flex flex-col">
+                <div className="rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full flex flex-col border border-gray-200" style={{ backgroundColor: 'rgb(248, 250, 252)' }}>
                   <div className="relative overflow-hidden rounded-t-3xl flex-shrink-0">
                     <img
                       src={card.image}
                       alt={card.title}
                       className="w-full h-80 object-cover transition-transform duration-300 hover:scale-110 rounded-t-3xl"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-t-3xl"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-t-3xl"></div>
                   </div>
-                  <div className="p-10 flex-1 flex flex-col justify-center">
+                  <div className="p-10 flex-1 flex flex-col justify-center" style={{ backgroundColor: 'rgba(233, 224, 224, 0.84)' }}>
                     <h1 className="text-3xl font-bold text-gray-800 mb-6 line-clamp-2">
                       {card.title}
                     </h1>
-                    <p className="text-lg text-gray-600 leading-relaxed line-clamp-4">
+                    <p className="text-lg text-gray-700 leading-relaxed line-clamp-4">
                       {card.text}
                     </p>
                   </div>

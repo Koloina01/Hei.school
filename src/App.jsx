@@ -11,6 +11,7 @@ import Carousel from './Components/Carousel';
 import Footer from './Components/Footer';
 import ScrollingCards from './Components/SecondCarousel';
 
+
 function App() {
   const [count, setCount] = useState(0)
 
