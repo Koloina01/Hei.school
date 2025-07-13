@@ -28,7 +28,7 @@ const ScrollingCards = () => {
     {
       id: 3,
       image: RayanImage,
-      title: "Rayan ANDRIANAMAHERY",
+      title: "Ryan ANDRIANAMAHERY",
       text: "Developpeur back en | Cofondateur des operations de HEI"
     },
     {
@@ -85,7 +85,6 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
       </div>
       
       <div className="relative h-[700px]">
-        {/* Bouton précédent */}
         <button
           onClick={prevSlide}
           disabled={currentIndex === 0}
@@ -98,7 +97,6 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
           <ChevronLeft size={36} />
         </button>
 
-        {/* Conteneur des cartes */}
         <div className="overflow-hidden mx-24 h-full">
           <div 
             className="flex transition-transform duration-500 ease-in-out h-full"
@@ -132,7 +130,6 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
           </div>
         </div>
 
-        {/* Bouton suivant */}
         <button
           onClick={nextSlide}
           disabled={currentIndex >= cards.length - 3}
@@ -146,7 +143,6 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
         </button>
       </div>
 
-      {/* Indicateurs */}
       <div className="flex justify-center mt-12 space-x-3">
         {Array.from({ length: cards.length - 2 }).map((_, index) => (
           <button
@@ -161,7 +157,6 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
         ))}
       </div>
 
-      {/* Compteur */}
       <div className="text-center mt-6 text-lg text-white">
         {currentIndex + 1} - {Math.min(currentIndex + 3, cards.length)} sur {cards.length}
       </div>
