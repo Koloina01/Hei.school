@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
+import Hei from '../assets/Hei.webp'
+import EquipeHei from '../assets/EquipeHei.webp'
+import SalleHei from '../assets/SalleHei.webp'
 
 const TripleCarousel = () => {
   const slides = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+      image: Hei,
       fallbackImage: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDgwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMDAxOTQ4Ii8+Cjx0ZXh0IHg9IjQwMCIgeT0iMjAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1zaXplPSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIj5IYXV0ZSBFY29sZSBkJ0luZm9ybWF0aXF1ZTwvdGV4dD4KPC9zdmc+",
       title: "Haute Ecole d'Informatique",
       description: "'L'education est l'arme la plus puissante pour changer le monde' selon Nelson Mandela.'L'education dans l'informatique est une arme tres puissante pour lutter contre la pauvrete a Madagascar' selon HEI. C'est notre mission",
@@ -17,7 +20,7 @@ const TripleCarousel = () => {
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=400&fit=crop",
+      image: EquipeHei,
       fallbackImage: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDgwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjZmZiYTAwIi8+Cjx0ZXh0IHg9IjQwMCIgeT0iMjAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1zaXplPSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIj5FbnRyZXByaXNlcyBQYXJ0ZW5haXJlczwvdGV4dD4KPC9zdmc+",
       title: "Haute Ecole d'Informatique",
       description: "Des entreprises partenaires et une equipe pedagogique et administrative qui travaille sans relache pour le montee en competences de nos etudiants.",
@@ -29,7 +32,7 @@ const TripleCarousel = () => {
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=400&fit=crop",
+      image: SalleHei,
       fallbackImage: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDgwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNjY2NjY2Ii8+Cjx0ZXh0IHg9IjQwMCIgeT0iMjAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1zaXplPSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsIj5JbmZyYXN0cnVjdHVyZSBkZSBRdWFsaXRlPC90ZXh0Pgo8L3N2Zz4=",
       title: "Haute Ecole d'Informatique",
       description: "Une infrastructure de qualite un programme pedagogique qui repond au besoin du marche pour l'employabilite de nos etudiants",
@@ -121,7 +124,6 @@ const TripleCarousel = () => {
               />
               {/* Overlay sombre pour la lisibilité */}
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-              
               {/* Indicateur de fallback */}
               {imageErrors[slide.id] && (
                 <div className="absolute top-6 left-6 bg-orange-500 text-white px-3 py-2 rounded text-sm">
@@ -137,9 +139,10 @@ const TripleCarousel = () => {
           {/* Section du contenu principal - positionnée plus haut */}
           <div className="text-center max-w-7xl transform -translate-y-16">
             {/* Titre H1 - taille augmentée pour les nouvelles dimensions */}
-            <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-16 drop-shadow-lg whitespace-nowrap">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-16 drop-shadow-lg whitespace-nowrap">
               {slides[currentSlide].title}
             </h1>
+
             
             {/* Texte descriptif - taille augmentée */}
             <p className="text-2xl md:text-3xl text-white mb-20 leading-relaxed drop-shadow-md">
