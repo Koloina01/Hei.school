@@ -9,6 +9,7 @@ import TechStackOverview from './Components/TechStackOverview';
 import Partnership from './Components/Partnership';
 import TripleCarousel from './Components/Carousel';
 import Footer from './Components/Footer';
+import ScrollingCards from './Components/SecondCarousel';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <TripleCarousel/>
       <First_section />
+      <ScrollingCards/>
       <Outlets/>
       <Domains/>
       <Admission />
