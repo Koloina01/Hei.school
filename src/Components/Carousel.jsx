@@ -129,6 +129,9 @@ export default function TripleCarousel() {
                   onError={(e) => handleImageError(e, slide)}
                   onLoad={() => handleImageLoad(slide.id)}
                 />
+                
+                {/* Overlay sombre transparent avec teinte brune pour améliorer la lisibilité */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-amber-900/20 to-black/25" />
 
                 {/* Contenu textuel */}
                 <div className="absolute inset-0 flex flex-col justify-center items-center px-16">
