@@ -76,7 +76,7 @@ const ScrollingCards = () => {
   };
 
   return (
-    <div className="w-[1855px] h-[1075px] mx-auto p-12 overflow-hidden rounded-3xl" style={{ backgroundColor: 'rgb(96, 106, 243)' }}>
+    <div className="w-[1855px] h-[1075px] mx-auto p-12 overflow-hidden rounded-3xl" style={{ backgroundColor: '#82A0E7' }}>
       <div className="text-center mb-16">
         <h1 className="text-6xl font-bold text-white mb-6">L'équipe pédagogique</h1>
         <p className="text-xl text-white max-w-6xl mx-auto leading-relaxed px-8">	
