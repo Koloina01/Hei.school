@@ -8,6 +8,7 @@ import Domains from './Components/Domains';
 import TechStackOverview from './Components/TechStackOverview';
 import Partnership from './Components/Partnership';
 import TripleCarousel from './Components/Carousel';
+import Footer from './Components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
       <EducationalProgram />
       <TechStackOverview />
       <Partnership />
+      <Footer />
     </>
   )
 }

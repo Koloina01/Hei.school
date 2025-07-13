@@ -3,7 +3,7 @@ import logo from "../assets/Logo-HEI.png";
 
 export default function Navbar() {
     return (
-        <nav className="bg-[#001948] text-white fixed top-0 w-full z-50 shadow-md items-center">
+        <nav className="bg-[#001948] text-white w-full z-50 shadow-md items-center">
             <div className="w-[116rem] h-30 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-around">
                     <div>
@@ -19,7 +19,7 @@ export default function Navbar() {
                             </div>
                         </div>
                         <div className="hidden md:block">
-                            <button className="bg-yellow-400 hover:bg-yellow-500 text-amber-50 font-bold  rounded text-lg border-none px-6 py-1.5">
+                            <button className="bg-[#dfa408] hover:bg-[#dfa408] text-amber-50 font-bold  rounded text-lg border-none px-6 py-1.5">
                                 INTRANET
                             </button>
                         </div>

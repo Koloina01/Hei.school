@@ -6,7 +6,7 @@ import Vagno from "../assets/Vagno.webp"
 
 export default function EducationalPro(){
     return (
-        <main>
+        <main className="w-full">
             <div className="flex flex-row gap-15 mt-20 justify-center">
                 <div>
                     <img src={ProPedagogique} alt="ProPedagogique" className="w-120" />
