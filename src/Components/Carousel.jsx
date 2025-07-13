@@ -110,7 +110,3 @@ export default function TripleCarousel() {
     </div>
   );
 }
-
-
-
-  

@@ -57,7 +57,7 @@ const ScrollingCards = () => {
     },
     {
       id: 8,
-      image: "https://via.placeholder.com/400x300/f0f0f0/666666?text=Dr+Lou",
+      image: DrLouImage,
       title: "Dr Lou Maurica",
       text: "Docteur-Ingenieur en informatique | Fondateur et directeur pedagogique de HEI"
     }
@@ -118,7 +118,7 @@ Notre équipe pédagogique se compose d'experts nationaux et internationaux de l
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-t-3xl"></div>
                   </div>
-                  <div className="p-10 flex-1 flex flex-col justify-center" style={{ backgroundColor: 'rgba(233, 224, 224, 0.84)' }}>
+                  <div className="p-10 flex-1 flex flex-col justify-center" style={{ backgroundColor: 'rgba(235, 231, 231, 0.84)' }}>
                     <h1 className="text-3xl font-bold text-gray-800 mb-6 line-clamp-2">
                       {card.title}
                     </h1>
